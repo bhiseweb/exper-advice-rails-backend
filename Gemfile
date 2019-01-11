@@ -19,6 +19,8 @@ gem 'doorkeeper'
 gem 'rack-cors'
 gem 'active_model_serializers'
 gem 'validates_email_format_of'
+gem 'friendly_id', '~> 5.2.4'
+gem 'kaminari'
 
 group :development, :test do
   gem 'rubocop'
